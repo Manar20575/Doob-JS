@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font File -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;700&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;500;700&family=Rubik:ital,wght@0,400;0,700;1,500&family=Work+Sans:wght@100;300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <!-- css files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./CSS/font-awesome.min.css">
+    <link rel = "stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Doob</title>
+</head>
+<body>
+    <header id = "home"><!-- Home Start -->
+    <div class="container">
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="./images/logo.svg" alt=""></a>
+            <div class="nav">
+              <input type="checkbox" id ="nav">
+              <label for="nav">
+                <a class="bar"><i class="fas fa-bars"></i></a></label>
+                <ul>
+                    <li class="red"><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#view">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <div class="dropdown_list space">
+                      <button class="dropdown_button" 
+                          onclick="show_list()">
+                          En</button>
+                      <div id="lan_id" class="lan">
+                          <li><a href="">DE</a></li>
+                          <li><a href="">ES</a></li>
+                      </div>
+                  </div>
+                    <li><button class="btn">Contact Us</button></li>
+                </ul>
+            </div>
+        </nav>
+    <section class="home_content">
+        
+          <img src="./images/hero.svg" alt="hero">
+            <h1>The Spirit of<br>Digital Agency.</h1>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum<br> amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            <div class="btns">
+              <a class="more" href="#">More About us</a>
+              <a  class = "get" href="#">Get in Touch.</a>
+          </div>
+        </div>
+    </section>
+    </header><!--Home End  -->
+    <section id="about"><!-- Start About -->
+        <div class="container">
+          <div class="about-img1"> 
+            <img src="./images/aside.svg" alt="">
+          </div>
+          <div class="about-img2"> 
+            <img src="./images/aside2.svg" alt="">
+          </div>
+            <div class="row">
+              <div class="about_content">
+                <h2>Anything you need,we’ve got you covered</h2>
+                <a class="more" href="#">Get in Touch</a>
+              </div>
+              <div class="about_box">
+                <div class="in-box">
+                  <img src="images/service-icon1.svg">
+                  <h3>Web &amp; Graphic<br>Design</h3>
+                  <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan <br>tincidunt.</p>
+                </div>
+              </div>
+              <div class="about_box">
+                <div class="in-box">
+                  <img src="images/service-icon2.svg">
+                  <h3>Web &amp; App<br>Development</h3>
+                  <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan <br>tincidunt.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section><!-- End About -->
+    <section id="about2"><!-- Start About2 -->
+      <div class="container">
+        <div class="row">
+          <div class="img_row"><img src="./images/aboutimg.svg" alt=""></div>
+          <div class="row-contant">
+            <h5>our company</h5>
+            <h2>Some Fine<br>Words About Us</h2>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About2 -->
+    <section id="work"><!-- Start Work -->
+      <div class="container">
+        <div class="back">
+          <img src="./images/aside3.svg" >
+        </div>
+        <h1 class="work-title">See some of our<br> Creative work.</h1>
+        <div class="photo">
+          <div class="img-work">
+            <img src="./images/1.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/2.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/3.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/4.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/5.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/6.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+        </div>
+        <div class="photo" id = "more">
+          <div class="img-work">
+            <img src="./images/1.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/2.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+          <div class="img-work">
+            <img src="./images/3.png" alt="">
+                <div class="layer-info">
+                  <span>Awesome Work</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="showmore"><button class="showbtn" id = "btn_text"
+        onclick="show_more()">
+        Show more</button></div>
+    </section><!-- End Work -->
+    <section id="view"><!-- Start View -->
+      <div class="container">
+      <h3>BLOG STORIES</h3>
+      <h2>Check Our News</h2>
+      <div class="arrow">
+        <div class="prev">
+          <i class="fa-solid fa-arrow-left fa-2x"></i>
+        </div>
+        <div class="next">
+          <i class="fa-solid fa-arrow-right fa-2x"></i>
+        </div>
+      </div>
+      <section class="slider">
+          <div class="slide3">
+          <h4>NEW ADVENTURE</h4>
+          <p class="date">17 March 2019</p>
+          <p class="view-details">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+        </div>
+          <div class="slide3">
+            <h4>NEW ADVENTURE</h4>
+            <p class="date">17 March 2019</p>
+            <p class="view-details">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="slide3">
+            <h4>NEW ADVENTURE</h4>
+            <p class="date">17 March 2019</p>
+            <p class="view-details">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="slide3">
+            <h4>NEW ADVENTURE</h4>
+            <p class="date">17 March 2019</p>
+            <p class="view-details">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="slide3">
+            <h4>NEW ADVENTURE</h4>
+            <p class="date">17 March 2019</p>
+            <p class="view-details">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+      </section>
+    </div>
+    </section><!-- End View -->
+    <section  id="contact"> <!-- Start Contact -->
+      <div class="container">
+        <div class="row">
+          <div class="contact-title">
+            <h5>CONTACT US</h5>
+            <h2>Get in Touch</h2>
+          </div>
+        </div>
+        <div class="yl">
+          <div class="email">
+            <input placeholder="Your email" type="email" id="email">
+          </div>
+          <div class="email">
+            <input placeholder="Subject" type="subject" id="subject" >
+          </div>
+        </div>
+        <div class="yl2">
+          <div class="message">
+            <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+          </div>
+            <div class="contact-btn">
+              <a  class = "more"href="#">Send Message</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact -->
+    <section id="footer"><!-- Start Footer -->
+        <h5>DOOB</h5>
+        <h3>CREATIVITY ABOVE</h3>
+        <ul class="nav-footer">
+          <li><a href="#home">Home.</a></li>
+          <li><a href="#about">About Us.</a></li>
+          <li><a href="#work">Portfolio.</a></li>
+          <li><a href="#view">Blog.</a></li>
+          <li><a href="#contact">Contact.</a></li>
+        </ul>
+        <h6>© 2019 - Doob,All Right Reserved</h6>
+      <div class="list">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f fa-2x icon"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter fa-2x icon"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in fa-2x icon"></i></a></li>
+          <li>
+            <a href="#"><i class="fab fa-google-plus-g fa-2x icon"></i></a></li>
+        </ul>
+      </div>
+    </section><!-- End Footer -->
+  <script src="./JS/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+      $(document).ready(function(){
+      $('.slider').slick({
+        slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    prevArrow:'.prev',
+    nextArrow :'.next'
+      });
+    });
+    </script>
+</body>
+</html>
