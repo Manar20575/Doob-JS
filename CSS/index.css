@@ -290,7 +290,7 @@ align-items: center;
 }
 @media (min-width:975px) {
     .home_content img{
-        right: -125px;
+        right: -0px;
     }
 }
 /* 7-Media Home */
