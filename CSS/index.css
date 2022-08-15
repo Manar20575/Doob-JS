@@ -365,7 +365,7 @@ width: 33.3333%;
     padding: 70px 0px;
 }
 /* 9-Media About */
-@media (max-width:1024px) {
+@media (min-width:975px) {
  .about_box h3{
     font-size: 20px;
     line-height: 22px;
