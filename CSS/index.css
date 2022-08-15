@@ -367,11 +367,11 @@ align-items: center;
  .row{
   display:block;
  }
- .in-box{
-  margin: 46px;
+ .box2g{
+  display:flex;
  }
 .about_box h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 .about_content{
     width: 100%;
