@@ -329,9 +329,14 @@ align-items: center;
     margin-left: -15px;
     align-items: center;
 }
+.about_content{
+ width: 33.3333%;
+}
+.about_box{
+width: 33.3333%;
+}
 .about_box, .about_content{
     position: relative;
-    width: 33.3333%;
     padding-right: 15px;
     padding-left: 15px;
     height: 400px;
@@ -360,6 +365,16 @@ align-items: center;
     padding: 70px 0px;
 }
 /* 9-Media About */
+@media (max-width:1024px) {
+ .about_box h3{
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 12px;
+ }
+ .about_content{
+  width:50%;
+ }
+}
 @media (max-width:975px) {
 .about_box{
     width: 50%;
