@@ -364,6 +364,12 @@ align-items: center;
 .about_box{
     width: 50%;
 }
+ .row{
+  display:block;
+ }
+ .in-box{
+  margin: 46px;
+ }
 .about_box h3{
     font-size: 25px;
 }
